@@ -10,7 +10,8 @@ h4{
 
 body {
     font-family: 'Montserrat', sans-serif;
-    
+    width: 80%;
+    margin: auto;
 }
 
 h1 {
@@ -42,7 +43,4 @@ nav a:hover {
     gap: 30px;
     padding: 25px;
 
-}
-h3{
-    color: rgb(232, 90, 90);
 }
