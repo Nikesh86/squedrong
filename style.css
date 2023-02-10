@@ -1,20 +1,32 @@
-<<<<<<< HEAD
+
 h4{
     color: palevioletred;
     font-size: 300%;
-    font-family: 'Montserrat';
 }
-=======
+
 body {
     font-family: 'Montserrat', sans-serif;
+    
 }
 
 h1 {
     font-family: 'Abril Fatface', cursive;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: grey;
+    font-weight: 600;
+    margin: 0 1.6em;
+}
 
 
+nav a:hover {
+    color: blueviolet;
+}
 
-
->>>>>>> 9eb4940aa20938be0086732857cda1fb5f6c0140
