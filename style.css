@@ -1,9 +1,7 @@
-<<<<<<< HEAD
 { header
     
 
 }
-=======
 
 h4{
     color: palevioletred;
@@ -45,4 +43,6 @@ nav a:hover {
     padding: 25px;
 
 }
->>>>>>> 6d9589d281724bd0da03be1f5165a9f5ed9d09b0
+h3{
+    color: rgb(232, 90, 90);
+}
