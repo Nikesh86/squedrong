@@ -1,5 +1,20 @@
+<<<<<<< HEAD
 h4{
     color: palevioletred;
     font-size: 300%;
     font-family: 'Montserrat';
 }
+=======
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+
+
+
+
+>>>>>>> 9eb4940aa20938be0086732857cda1fb5f6c0140
