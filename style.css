@@ -1,9 +1,4 @@
-{ header
-    
-
-}
-
-h4{
+h4 {
     color: palevioletred;
     font-size: 300%;
 }
@@ -36,11 +31,10 @@ nav a:hover {
 }
 
 
-.article{
+.article {
     display: grid;
     margin-top: 100px;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
     padding: 25px;
-
 }
