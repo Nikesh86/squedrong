@@ -133,6 +133,11 @@ nav a:hover {
 
 .imagefooter {
     display: flex;
+    align-items: self-start;
+    padding: 25px;
+}
+.imagefooter {
+    display: flex;
     align-items: center;
     padding: 25px;
 }
