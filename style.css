@@ -31,7 +31,7 @@ nav a:hover {
 }
 
 
-.article{
+.article {
     display: grid;
     margin-top: 100px;
     grid-template-columns: repeat(2, 1fr);
@@ -40,3 +40,36 @@ nav a:hover {
     padding: 25px;
 
 }
+
+
+.colonnefooter{
+    display: grid;
+    margin-top: 100px;
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 30px;
+    padding: 25px;
+}
+
+
+.linksfooter{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 25px;
+}
+
+.verticalfooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.imagefooter{
+    display: flex;
+    align-items: center;
+    padding: 25px;
+}
+
