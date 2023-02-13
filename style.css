@@ -44,7 +44,7 @@ input {
     background-color: #f8f8f8;
 }
 
-button{
+button {
     background-color: #04AA6D;
     border: none;
     color: white;
@@ -52,9 +52,18 @@ button{
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
-
 }
 
+.Contact {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+
+.h1 {
+    text-align: center;
+    margin-top: 100px;
+}
 
 
 .blog {
@@ -111,12 +120,8 @@ nav a:hover {
 
 
 
-<<<<<<< HEAD
 
 /*  artile en grid et text*/
-=======
- /*  artile en grid et text*/ 
->>>>>>> 9bbbdd1d4c9b4af78208855a8675eb387927fed8
 .article {
     display: grid;
     margin-top: 100px;
@@ -168,13 +173,10 @@ nav a:hover {
     display: flex;
     align-items: self-start;
     padding: 25px;
-<<<<<<< HEAD
 }
 
 .imagefooter {
     display: flex;
     align-items: center;
     padding: 25px;
-=======
->>>>>>> 9bbbdd1d4c9b4af78208855a8675eb387927fed8
 }
