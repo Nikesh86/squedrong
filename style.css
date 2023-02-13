@@ -81,23 +81,19 @@ nav a:hover {
 }
 
 
-
 .colonneheader {
     display: grid;
     margin-top: 100px;
     grid-template-columns: repeat(2, 1fr);
-
     gap: 5px;
     padding-left: 25px;
 }
-
 
 .linksheader {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     gap: 10px;
-    padding: 25px;
 }
 
 .verticalheader {
@@ -115,8 +111,12 @@ nav a:hover {
 
 
 
+<<<<<<< HEAD
 
 /*  artile en grid et text*/
+=======
+ /*  artile en grid et text*/ 
+>>>>>>> 9bbbdd1d4c9b4af78208855a8675eb387927fed8
 .article {
     display: grid;
     margin-top: 100px;
@@ -145,7 +145,6 @@ nav a:hover {
     display: grid;
     margin-top: 100px;
     grid-template-columns: repeat(2, 1fr);
-
     gap: 30px;
     padding: 25px;
 }
@@ -156,13 +155,12 @@ nav a:hover {
     align-items: flex-start;
     justify-content: flex-start;
     gap: 10px;
-    padding: 25px;
 }
 
 .verticalfooter {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 10px;
 }
 
@@ -170,10 +168,13 @@ nav a:hover {
     display: flex;
     align-items: self-start;
     padding: 25px;
+<<<<<<< HEAD
 }
 
 .imagefooter {
     display: flex;
     align-items: center;
     padding: 25px;
+=======
+>>>>>>> 9bbbdd1d4c9b4af78208855a8675eb387927fed8
 }
