@@ -78,9 +78,16 @@ nav a:hover {
 
 .text {
     padding-left: 35px;
-
 }
 
+.text h3{
+    color: rgb(218, 12, 91);
+    font: 1.5em sans-serif;
+}
+
+.text a{
+    color: rgb(218, 12, 91);
+}
 
 
 .colonnefooter {
