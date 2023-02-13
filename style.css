@@ -31,33 +31,29 @@ nav a:hover {
 }
 
 
-
-.colonneheader{
+.colonneheader {
     display: grid;
     margin-top: 100px;
     grid-template-columns: repeat(2, 1fr);
-
     gap: 5px;
     padding-left: 25px;
 }
 
-
-.linksheader{
+.linksheader {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     gap: 10px;
-    padding: 25px;
 }
 
-.verticalheader{
+.verticalheader {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 10px;
 }
 
-.imageheader{
+.imageheader {
     display: flex;
     align-items: center;
     padding: 25px;
@@ -66,8 +62,7 @@ nav a:hover {
 
 
 
-
-.article{
+.article {
     display: grid;
     margin-top: 100px;
     grid-template-columns: repeat(2, 1fr);
@@ -80,21 +75,21 @@ nav a:hover {
     padding-left: 35px;
 }
 
-.text h3{
+.text h3 {
     color: rgb(218, 12, 91);
     font: 1.5em sans-serif;
 }
 
-.text a{
+.text a {
     color: rgb(218, 12, 91);
 }
+
 
 
 .colonnefooter {
     display: grid;
     margin-top: 100px;
     grid-template-columns: repeat(2, 1fr);
-
     gap: 30px;
     padding: 25px;
 }
@@ -105,18 +100,17 @@ nav a:hover {
     align-items: flex-start;
     justify-content: flex-start;
     gap: 10px;
-    padding: 25px;
 }
 
 .verticalfooter {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 10px;
 }
 
 .imagefooter {
     display: flex;
-    align-items: center;
+    align-items: self-start;
     padding: 25px;
 }
