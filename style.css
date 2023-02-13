@@ -11,6 +11,22 @@ body {
 
 h1 {
     font-family: 'Abril Fatface', cursive;
+    color: rgb(218, 12, 91);
+}
+
+h1,h2,h3 {
+    padding: 10px;
+}
+
+
+P {
+    padding: 10px;
+}
+
+.blog {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
 
 nav {
@@ -32,7 +48,7 @@ nav a:hover {
 
 
 
-.colonneheader{
+.colonneheader {
     display: grid;
     margin-top: 100px;
     grid-template-columns: repeat(2, 1fr);
@@ -42,7 +58,7 @@ nav a:hover {
 }
 
 
-.linksheader{
+.linksheader {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -50,14 +66,14 @@ nav a:hover {
     padding: 25px;
 }
 
-.verticalheader{
+.verticalheader {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 10px;
 }
 
-.imageheader{
+.imageheader {
     display: flex;
     align-items: center;
     padding: 25px;
@@ -67,7 +83,7 @@ nav a:hover {
 
 
 
-.article{
+.article {
     display: grid;
     margin-top: 100px;
     grid-template-columns: repeat(2, 1fr);
@@ -80,12 +96,12 @@ nav a:hover {
     padding-left: 35px;
 }
 
-.text h3{
+.text h3 {
     color: rgb(218, 12, 91);
     font: 1.5em sans-serif;
 }
 
-.text a{
+.text a {
     color: rgb(218, 12, 91);
 }
 
@@ -115,6 +131,11 @@ nav a:hover {
     gap: 10px;
 }
 
+.imagefooter {
+    display: flex;
+    align-items: self-start;
+    padding: 25px;
+}
 .imagefooter {
     display: flex;
     align-items: center;
