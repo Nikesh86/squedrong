@@ -14,14 +14,48 @@ h1 {
     color: rgb(218, 12, 91);
 }
 
-h1,h2,h3 {
+h1,
+h2,
+h3 {
     padding: 10px;
 }
-
 
 P {
     padding: 10px;
 }
+
+/* page fourmuler*/
+textarea {
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+
+input {
+    height: 20px;
+    width: 300px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+
+button{
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 13px 30px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+
 
 .blog {
     display: flex;
@@ -77,7 +111,12 @@ nav a:hover {
 
 
 
+<<<<<<< HEAD
+
+/*  artile en grid et text*/
+=======
  /*  artile en grid et text*/ 
+>>>>>>> 9bbbdd1d4c9b4af78208855a8675eb387927fed8
 .article {
     display: grid;
     margin-top: 100px;
@@ -129,4 +168,13 @@ nav a:hover {
     display: flex;
     align-items: self-start;
     padding: 25px;
+<<<<<<< HEAD
+}
+
+.imagefooter {
+    display: flex;
+    align-items: center;
+    padding: 25px;
+=======
+>>>>>>> 9bbbdd1d4c9b4af78208855a8675eb387927fed8
 }
