@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-
-h4{
-=======
 h4 {
->>>>>>> 4de734c4074f8aa7091199c38236b70d39d2e301
     color: palevioletred;
     font-size: 300%;
 }
@@ -42,7 +37,6 @@ nav a:hover {
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
     padding: 25px;
-<<<<<<< HEAD
 
 }
 
@@ -77,6 +71,3 @@ nav a:hover {
     padding: 25px;
 }
 
-=======
-}
->>>>>>> 4de734c4074f8aa7091199c38236b70d39d2e301
