@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-
 h4{
-=======
-h4 {
->>>>>>> 4de734c4074f8aa7091199c38236b70d39d2e301
     color: palevioletred;
     font-size: 300%;
 }
@@ -36,13 +31,47 @@ nav a:hover {
 }
 
 
-.article {
+
+.colonneheader{
     display: grid;
     margin-top: 100px;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
     padding: 25px;
-<<<<<<< HEAD
+}
+
+
+.linksheader{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 25px;
+}
+
+.verticalheader{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.imageheader{
+    display: flex;
+    align-items: center;
+    padding: 25px;
+}
+
+
+
+
+
+.article{
+    display: grid;
+    margin-top: 100px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 25px;
 
 }
 
@@ -76,7 +105,3 @@ nav a:hover {
     align-items: center;
     padding: 25px;
 }
-
-=======
-}
->>>>>>> 4de734c4074f8aa7091199c38236b70d39d2e301
