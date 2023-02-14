@@ -23,7 +23,7 @@ h1 {
 
 .AccueilContainer {
     display: grid;
-    grid-template-columns: 80%;
+    grid-template-columns: 60%;
     justify-content: center;
 }
 
@@ -64,9 +64,12 @@ nav a:hover {
 /* HEADER */
 .colonneheader {
     display: grid;
+    align-content: center;
+    justify-content: end;
     margin-top: 50px;
+    gap: 50px;
     grid-template-columns: repeat(2, 1fr);
-    gap: 30%;
+    
 }
 
 .linksheader {
@@ -79,7 +82,6 @@ nav a:hover {
 .verticalheader {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     gap: 10px;
 }
 
@@ -89,7 +91,8 @@ nav a:hover {
 }
 
 .imageheader img {
-    width: 100%;
+    width: 50%;
+    margin: auto;
 }
 /* FIN HEADER */
 
@@ -102,9 +105,8 @@ nav a:hover {
 .article {
     display: grid;
     margin-top: 100px;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% 50%;
     gap: 15px;
-    padding: 15px;
 }
 
 .text h3 {
@@ -118,6 +120,10 @@ nav a:hover {
 
 h1, h2, h3, p {
     padding: 10px;
+}
+
+.article img {
+    width: 100%;
 }
 /* FIN ARTICLES PAGE D'ACCUEIL */
 
