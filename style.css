@@ -1,22 +1,104 @@
-h4 {
-    color: palevioletred;
-    font-size: 300%;
-}
-
+/* POLICE DE CARACTERE + BODY */
 body {
     font-family: 'Montserrat', sans-serif;
-    max-width: 70%;
-    margin: auto;
 }
 
-/* page grid body*/
 h1 {
     font-family: 'Abril Fatface', cursive;
     color: rgb(218, 12, 91);
 }
+/* FIN POLICE DE CARACTERE + BODY */
 
 
-/*  artile en grid et text*/
+
+
+
+
+/* CENTRAGE DES PAGES*/
+.BlogContainer {
+    display: grid;
+    grid-template-columns: 60%;
+    justify-content: center;
+}
+
+.AccueilContainer {
+    display: grid;
+    grid-template-columns: 80%;
+    justify-content: center;
+}
+
+
+
+
+
+
+/* NAV */
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    align-self: flex-start;
+}
+
+nav a {
+    color: grey;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 1.6em;
+}
+
+nav a:hover {
+    color: blueviolet;
+}
+/* FIN NAV */
+
+
+
+
+
+
+/* HEADER */
+.colonneheader {
+    display: grid;
+    margin-top: 50px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30%;
+}
+
+.linksheader {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.verticalheader {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.imageheader {
+    display: flex;
+    align-items: center;
+}
+
+.imageheader img {
+    width: 100%;
+}
+/* FIN HEADER */
+
+
+
+
+
+
+/* ARTICLES PAGE D'ACCUEIL */
 .article {
     display: grid;
     margin-top: 100px;
@@ -25,14 +107,26 @@ h1 {
     padding: 15px;
 }
 
-h1,
-h2,
-h3,p {
-padding: 10px;
+.text h3 {
+    color: rgb(218, 12, 91);
+    font: 1.5em sans-serif;
 }
 
+.text a {
+    color: rgb(218, 12, 91);
+}
 
-/* page fourmuler*/
+h1, h2, h3, p {
+    padding: 10px;
+}
+/* FIN ARTICLES PAGE D'ACCUEIL */
+
+
+
+
+
+
+/* PAGE CONTACT */
 textarea {
     height: 150px;
     padding: 12px 20px;
@@ -72,86 +166,31 @@ button {
     text-align: center;
     margin-top: 100px;
 }
+/* FIN PAGE CONTACT */
 
 
-.blog {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
+
+
+
+
+/* IMAGE BLOG */
+main img {
+    width: 100%;
 }
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav a {
-    color: grey;
-    font-weight: 600;
-    margin: 0 1.6em;
-}
-
-
-nav a:hover {
-    color: blueviolet;
-}
-
-
-.colonneheader {
-    display: grid;
-    margin-top: 100px;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30%;
-    padding-left: 25px;
-}
-
-.linksheader {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 10px;
-}
-
-.verticalheader {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 10px;
-}
-
-.imageheader {
-    display: flex;
-    align-items: center;
-    padding: 25px;
-
-}
+/* FIN IMAGE BLOG */
 
 
 
 
 
 
-
-.text h3 {
-    color: rgb(218, 12, 91);
-    font: 1.5em sans-serif;
-}
-
-.text a {
-    color: rgb(218, 12, 91);
-}
-
-
-
+/* FOOTER */
 .colonnefooter {
     display: grid;
     margin-top: 100px;
     grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
-    padding: 25px;
+    gap: 300px;
 }
-
 
 .linksfooter {
     display: flex;
@@ -169,17 +208,64 @@ nav a:hover {
 
 .imagefooter {
     display: flex;
-    align-items: self-start;
-    padding: 25px;
+    align-items: center;
 }
 
-.imagefooter {
+.imagefooter img {
+    width: 100%;
+}
+
+.buttonfooter {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button1 {
+    background-color: #29aae1;
     display: flex;
     align-items: center;
-    padding: 25px;
-<<<<<<< HEAD
-} 
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 27px;
+    gap: 20px;
 
-=======
 }
->>>>>>> f3bcc71275e540a6a9997c6e059da83270367aec
+
+.button2 {
+    background-color: #0c65c3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 23px;
+    gap: 20px;
+}
+
+.button3 {
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 20px;
+    gap: 20px;
+}
+
+.lestroisbouton {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
