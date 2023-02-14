@@ -14,7 +14,7 @@ h1 {
 
 
 
-/* TEST CENTRAGE DES PAGES*/
+/* CENTRAGE DES PAGES*/
 .BlogContainer {
     display: grid;
     grid-template-columns: 60%;
@@ -173,6 +173,17 @@ button {
 
 
 
+/* IMAGE BLOG */
+main img {
+    width: 100%;
+}
+/* FIN IMAGE BLOG */
+
+
+
+
+
+
 /* FOOTER */
 .colonnefooter {
     display: grid;
@@ -197,15 +208,13 @@ button {
 
 .imagefooter {
     display: flex;
-    align-items: self-start;
-    padding: 25px;
+    align-items: center;
 }
 
-.imagefooter {
-    display: flex;
-    align-items: center;
-    padding: 25px;
+.imagefooter img {
+    width: 100%;
 }
+
 .buttonfooter {
     border: none;
     color: white;
