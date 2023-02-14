@@ -37,7 +37,7 @@
   }
   
   .text-blue{
-    color: #1f4e9e;
+    color: #a39066;
   }
   
   .text-darkblue{
@@ -103,7 +103,7 @@
   .header{
     grid-area: header;
     padding: 50px;
-    background-color: #F2F2F2;
+    background-color: #f3e9d3;
     display: flex;
     flex-direction: column;
     justify-content: center;
