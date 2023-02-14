@@ -5,24 +5,32 @@ h4 {
 
 body {
     font-family: 'Montserrat', sans-serif;
-    width: 80%;
+    max-width: 70%;
     margin: auto;
 }
 
+/* page grid body*/
 h1 {
     font-family: 'Abril Fatface', cursive;
     color: rgb(218, 12, 91);
 }
 
-h1,
-h2,
-h3 {
-    padding: 10px;
+
+/*  artile en grid et text*/
+.article {
+    display: grid;
+    margin-top: 100px;
+    grid-template-columns: auto auto;
+    gap: 15px;
+    padding: 15px;
 }
 
-P {
-    padding: 10px;
+h1,
+h2,
+h3,p {
+padding: 10px;
 }
+
 
 /* page fourmuler*/
 textarea {
@@ -94,7 +102,7 @@ nav a:hover {
     display: grid;
     margin-top: 100px;
     grid-template-columns: repeat(2, 1fr);
-    gap: 5px;
+    gap: 30%;
     padding-left: 25px;
 }
 
@@ -116,24 +124,14 @@ nav a:hover {
     display: flex;
     align-items: center;
     padding: 25px;
-}
-
-
-
-
-/*  artile en grid et text*/
-.article {
-    display: grid;
-    margin-top: 100px;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
-    padding: 25px;
 
 }
 
-.text {
-    padding-left: 35px;
-}
+
+
+
+
+
 
 .text h3 {
     color: rgb(218, 12, 91);
@@ -179,5 +177,9 @@ nav a:hover {
     display: flex;
     align-items: center;
     padding: 25px;
+<<<<<<< HEAD
 } 
 
+=======
+}
+>>>>>>> f3bcc71275e540a6a9997c6e059da83270367aec
