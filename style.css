@@ -164,7 +164,7 @@ button {
 
 .Contact {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 200px;
 }
 
@@ -273,7 +273,7 @@ main img {
     gap: 15px;
 }
 
-a {
+.linksfooter a {
     color: white;
     text-decoration: none;
 }
@@ -298,6 +298,7 @@ a {
     padding: 20px;
     box-shadow: #171717 7px 5px;
     font-size: 20px;
+    
 
 }
 
