@@ -1,22 +1,81 @@
-h4 {
-    color: palevioletred;
-    font-size: 300%;
-}
-
+/* POLICE DE CARACTERE + BODY */
 body {
     font-family: 'Montserrat', sans-serif;
     max-width: 70%;
     margin: auto;
 }
 
-/* page grid body*/
 h1 {
     font-family: 'Abril Fatface', cursive;
     color: rgb(218, 12, 91);
 }
+/* FIN POLICE DE CARACTERE + BODY */
 
 
-/*  artile en grid et text*/
+
+
+
+
+/* NAV */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: grey;
+    font-weight: 600;
+    margin: 0 1.6em;
+}
+
+nav a:hover {
+    color: blueviolet;
+}
+/* FIN NAV */
+
+
+
+
+
+
+/* HEADER */
+.colonneheader {
+    display: grid;
+    margin-top: 100px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30%;
+    padding-left: 25px;
+}
+
+.linksheader {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.verticalheader {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.imageheader {
+    display: flex;
+    align-items: center;
+    padding: 25px;
+
+}
+/* FIN HEADER */
+
+
+
+
+
+
+/* ARTICLES PAGE D'ACCUEUIL */
 .article {
     display: grid;
     margin-top: 100px;
@@ -25,14 +84,26 @@ h1 {
     padding: 15px;
 }
 
-h1,
-h2,
-h3,p {
-padding: 10px;
+.text h3 {
+    color: rgb(218, 12, 91);
+    font: 1.5em sans-serif;
 }
 
+.text a {
+    color: rgb(218, 12, 91);
+}
 
-/* page fourmuler*/
+h1, h2, h3, p {
+    padding: 10px;
+}
+/* FIN ARTICLES PAGE D'ACCUEUIL */
+
+
+
+
+
+
+/* PAGE CONTACT */
 textarea {
     height: 150px;
     padding: 12px 20px;
@@ -72,78 +143,14 @@ button {
     text-align: center;
     margin-top: 100px;
 }
-
-
-.blog {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav a {
-    color: grey;
-    font-weight: 600;
-    margin: 0 1.6em;
-}
-
-
-nav a:hover {
-    color: blueviolet;
-}
-
-
-.colonneheader {
-    display: grid;
-    margin-top: 100px;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30%;
-    padding-left: 25px;
-}
-
-.linksheader {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 10px;
-}
-
-.verticalheader {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 10px;
-}
-
-.imageheader {
-    display: flex;
-    align-items: center;
-    padding: 25px;
-
-}
+/* FIN PAGE CONTACT */
 
 
 
 
 
 
-
-.text h3 {
-    color: rgb(218, 12, 91);
-    font: 1.5em sans-serif;
-}
-
-.text a {
-    color: rgb(218, 12, 91);
-}
-
-
-
+/* FOOTER */
 .colonnefooter {
     display: grid;
     margin-top: 100px;
@@ -151,7 +158,6 @@ nav a:hover {
     gap: 30px;
     padding: 25px;
 }
-
 
 .linksfooter {
     display: flex;
@@ -177,5 +183,5 @@ nav a:hover {
     display: flex;
     align-items: center;
     padding: 25px;
-} 
-
+}
+/* FIN FOOTER */
