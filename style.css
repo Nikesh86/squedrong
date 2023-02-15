@@ -1,31 +1,37 @@
 /* POLICE DE CARACTERE + BODY */
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 2%
 }
 
 h1 {
     font-family: 'Abril Fatface', cursive;
     color: rgb(218, 12, 91);
+    font-size: 2.5em;
 }
-
 /* FIN POLICE DE CARACTERE + BODY */
 
 
 
 
 
-/* CENTRAGE DES PAGES*/
-.BlogContainer {
+/* CENTRAGE DES PAGES */
+.AccueilContainer {
+    border: black solid 1.5px;
+    box-shadow: grey 7px 1px 20px 10px;
     display: grid;
-    grid-template-columns: 60%;
+    grid-template-columns: 65%;
     justify-content: center;
 }
 
-.AccueilContainer {
+.BlogContainer {
+    border: black solid 1.5px;
+    box-shadow: grey 7px 1px 20px 10px;
     display: grid;
-    grid-template-columns: 60%;
+    grid-template-columns: 65%;
     justify-content: center;
 }
+/* FIN CENTRAGE DES PAGES */
 
 
 
@@ -33,20 +39,27 @@ h1 {
 
 
 /* NAV */
-nav {
-    width: 100%;
+.NavContainer {
+    max-width: 1200px;
+    width: 90%;
+}
+
+nav .NavContainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100%;
 }
 
 nav img {
-    align-self: flex-start;
+    width: 175px;
+    height: 100%;
 }
 
 nav a {
     color: grey;
     text-decoration: none;
+    font-size: 0.8em;
     font-weight: 600;
     margin-left: 1.6em;
 }
@@ -54,7 +67,6 @@ nav a {
 nav a:hover {
     color: blueviolet;
 }
-
 /* FIN NAV */
 
 
@@ -63,38 +75,31 @@ nav a:hover {
 
 
 /* HEADER */
-.colonneheader {
+header {
+    height: 60vh;
     display: grid;
-    align-content: center;
-    justify-content: end;
-    margin-top: 50px;
-    gap: 50px;
-    grid-template-columns: repeat(2, 1fr);
-    
-}
-
-.linksheader {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 10px;
-}
-
-.verticalheader {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.imageheader {
-    display: flex;
+    grid-template-columns: 50% 50%;
     align-items: center;
 }
 
-.imageheader img {
-    width: 50%;
-    margin: auto;
+header h2 {
+    font-size: 2em;
 }
+
+.verticalheader {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 35px;
+}
+
+.imageheader img {
+    margin-left: 21%;
+    height: 350px;
+    width: auto;
+}
+
 
 /* FIN HEADER */
 
@@ -105,30 +110,32 @@ nav a:hover {
 
 /* ARTICLES PAGE D'ACCUEIL */
 .article {
+    margin-top: 50px;
     display: grid;
-    margin-top: 100px;
     grid-template-columns: 50% 50%;
-    gap: 15px;
+    align-content: center;
 }
 
-.text h3 {
-    color: rgb(218, 12, 91);
-    font: 1.5em sans-serif;
-}
-
-.text a {
-    color: rgb(218, 12, 91);
-}
-
-h1,
-h2,
-h3,
-p {
-    padding: 10px;
+.article  article {
+    max-width: 100%;
 }
 
 .article img {
-    width: 100%;
+    width: 85%;
+    height: auto;
+}
+
+.article .text {
+    padding-left: 40px;
+    padding-right: 120px;
+}
+
+.article a {
+    color: rgb(218, 12, 91);
+}
+
+article {
+    margin-bottom: 75px;
 }
 /* FIN ARTICLES PAGE D'ACCUEIL */
 
@@ -177,7 +184,6 @@ button {
     text-align: center;
     margin-top: 100px;
 }
-
 /* FIN PAGE CONTACT */
 
 
@@ -185,12 +191,48 @@ button {
 
 
 
-/* IMAGE BLOG */
-main img {
+/* PAGE BLOG */
+.BlogNavContainer {
+    max-width: 1200px;
     width: 100%;
 }
 
-/* FIN IMAGE BLOG */
+nav .BlogNavContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+
+main img {
+    width: 100%;
+    height: auto;
+}
+
+main p {
+    color: rgb(93, 93, 93);
+    font-size: 1.3em;
+    font-weight: 600;
+    margin: 35px 0;
+}
+
+main h2 {
+    font-size: 2em;
+    font-weight: bolder;
+    color: rgb(89, 9, 164);
+}
+
+main h3 {
+    color: rgb(89, 9, 164);
+    font-weight: bolder;
+    font-size: 1.4em;
+}
+
+footer p {
+    color: rgb(93, 93, 93);
+}
+/* FIN BLOG */
 
 
 
@@ -200,9 +242,10 @@ main img {
 /* FOOTER */
 .colonnefooter {
     display: grid;
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-bottom: 100px;
     grid-template-columns: repeat(2, 1fr);
-    gap: 300px;
+    gap: 170px;
 }
 
 .linksfooter {
@@ -225,11 +268,10 @@ main img {
 }
 
 .imagefooter img {
-    width: 100%;
+    width: 400px;
 }
 
 .buttonfooter {
-    
     border: none;
     color: white;
     padding: 15px 32px;
@@ -249,7 +291,7 @@ main img {
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
-    padding: 10px 50px;
+    padding: 10px 38px;
     gap: 20px;
 
 }
@@ -261,7 +303,7 @@ main img {
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
-    padding: 10px 50px;
+    padding: 10px 38px;
     gap: 20px;
 }
 
@@ -272,21 +314,27 @@ main img {
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
-    padding: 10px 40px;
+    padding: 10px 38px;
     gap: 20px;
 }
 
 .lestroisbouton {
     display: flex;
     justify-content: center;
-    padding: 20px;
     gap: 15px;
 }
 
-.linksfooter a {
+a {
     color: white;
     text-decoration: none;
 }
+/* FIN FOOTER
+
+
+
+
+
+
 
 /* page nos CV */
 .cv {
