@@ -17,22 +17,18 @@ h1 {
 
 
 /* CENTRAGE DES PAGES */
-.AccueilContainer {
+.AccueilContainer,
+.BlogContainer, 
+.AproposContainer,
+.ContactContainer,
+.CVContainer {
     border: black solid 1.5px;
+    min-height: 100vh;
     box-shadow: grey 7px 1px 20px 10px;
     display: grid;
     grid-template-columns: 65%;
     justify-content: center;
 }
-
-.BlogContainer {
-    border: black solid 1.5px;
-    box-shadow: grey 7px 1px 20px 10px;
-    display: grid;
-    grid-template-columns: 65%;
-    justify-content: center;
-}
-
 /* FIN CENTRAGE DES PAGES */
 
 
@@ -102,8 +98,6 @@ header h2 {
     height: 350px;
     width: auto;
 }
-
-
 /* FIN HEADER */
 
 
@@ -135,6 +129,7 @@ header h2 {
 
 .article a {
     color: rgb(218, 12, 91);
+    text-decoration: none;
 }
 
 article {
@@ -153,43 +148,51 @@ article {
 textarea {
     height: 150px;
     padding: 12px 20px;
+    margin-bottom: 10px;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
-    background-color: #f8f8f8;
 }
 
 input {
     height: 20px;
     width: 300px;
+    margin-bottom: 30px;
     padding: 12px 20px;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
-    background-color: #f8f8f8;
 }
 
 button {
-    background-color: #04AA6D;
+    background-color: rgb(218, 12, 91);
     border: none;
     color: white;
     padding: 13px 30px;
     text-decoration: none;
-    margin: 4px 2px;
+    margin: 4px 2px 100px 2px;
     cursor: pointer;
 }
 
 .Contact {
     display: flex;
     justify-content: space-around;
-    margin-top: 200px;
+    margin-top: 50px;
 }
 
 .h1 {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px; 
 }
 
+.Contact a {
+    color: rgb(218, 12, 91);
+}
+
+.adresse {
+    line-height: 30px;
+    margin-bottom: 20px;
+}
 /* FIN PAGE CONTACT */
 
 
@@ -277,6 +280,7 @@ footer p {
 
 .imagefooter img {
     width: 400px;
+    margin-bottom: 200px;
 }
 
 .buttonfooter {
@@ -332,7 +336,7 @@ footer p {
     gap: 15px;
 }
 
-a {
+.lestroisbouton a {
     color: white;
     text-decoration: none;
 }
@@ -344,50 +348,21 @@ a {
 
 
 
+
 /* page nos CV */
 .cv {
     display: grid;
     grid-template-rows: auto auto auto;
-    margin: 60px;
-    padding: 60px;
     justify-items: center;
+    padding: 20px;
+    margin-bottom: 200px;
 }
 
-.cv1 {
-    display: flex;
-    justify-content: center;
-    background-color: #04AA6D;
-    border-radius: 15px;
-    text-align: center;
-    width: 10%;
+.cv a {
+    background-color: rgb(218, 12, 91);
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
     margin: 20px;
-    padding: 20px;
-    box-shadow: #171717 7px 5px;
-    font-size: 20px;
-}
-
-.cv2 {
-    display: flex;
-    justify-content: center;
-    background-color: #04AA6D;
-    border-radius: 15px;
-    text-align: center;
-    width: 10%;
-    margin: 20px;
-    padding: 20px;
-    box-shadow: #171717 7px 5px;
-    font-size: 20px;
-}
-
-.cv3 {
-    display: flex;
-    justify-content: center;
-    background-color: #04AA6D;
-    border-radius: 15px;
-    text-align: center;
-    width: 10%;
-    margin: 20px;
-    padding: 20px;
-    box-shadow: #171717 7px 5px;
-    font-size: 20px;
+    padding: 10px;
 }
