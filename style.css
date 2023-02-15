@@ -229,6 +229,7 @@ main img {
 }
 
 .buttonfooter {
+    
     border: none;
     color: white;
     padding: 15px 32px;
@@ -242,39 +243,43 @@ main img {
 }
 
 .button1 {
+    font-size:70%;
     background-color: #29aae1;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
-    padding: 27px;
+    padding: 10px 50px;
     gap: 20px;
 
 }
 
 .button2 {
+    font-size:70%;
     background-color: #0c65c3;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
-    padding: 23px;
+    padding: 10px 50px;
     gap: 20px;
 }
 
 .button3 {
+    font-size:70%;
     background-color: #000000;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
-    padding: 20px;
+    padding: 10px 40px;
     gap: 20px;
 }
 
 .lestroisbouton {
     display: flex;
     justify-content: center;
+    padding: 20px;
     gap: 15px;
 }
 
